@@ -1,0 +1,12 @@
+<%= form_for(@search) do |f| %>
+
+<div class="field">
+    <%= f.label :keywords, "検索ワード" %>
+    <%= f.text_area :keywords %>
+</div>
+
+<div class="actions">
+    <%= f.submit "検索" %>
+</div>
+
+<% end %>
