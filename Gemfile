@@ -28,6 +28,9 @@ gem 'nokogiri'
 #mechanize
 gem 'mechanize'
 
+# google adwords api
+gem 'google-adwords-api'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
